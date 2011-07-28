@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Chrome_120742122_Mac_OS.GreeterTest" errors="0" failures="0" tests="1" time="0.0020">
-<testcase classname="Chrome_120742122_Mac_OS.GreeterTest" name="testGreet" time="0.0020"/>
+<testsuite name="Chrome_120742122_Mac_OS.GreeterTest" errors="0" failures="0" tests="1" time="0.0010">
+<testcase classname="Chrome_120742122_Mac_OS.GreeterTest" name="testGreet" time="0.0010"/>
 </testsuite>
