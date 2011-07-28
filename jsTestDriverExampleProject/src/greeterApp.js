@@ -7,6 +7,7 @@ myapp.Greeter= function(){};
 myapp.Greeter.prototype.greet = function(name){
 	return "Hello "+name+"!";
 };
+suppressAlert=true;
 
 function checkNumbersOnly(element,message){
     var numericExpression= /^[0-9]+$/;
@@ -71,7 +72,9 @@ function checkAlphaNumeric(element,message){
 }
 
 function showAlert(element,message){
+	if(!suppressAlert){
     alert(message);
     element.focus();
+}
     return false;
 }
