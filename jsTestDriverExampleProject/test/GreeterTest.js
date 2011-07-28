@@ -21,8 +21,14 @@ checkNumbersOnlyTest=TestCase("checkNumbersOnlyTest");
 
 checkNumbersOnlyTest.prototype.testCheckNumbersOnlyTest= function(){
 	
-		var element=document.createTextNode('123456');
-		document.body.appendChild(element);
+		var text=document.createTextNode('123456');
+		//var element=document.createElement('div');
+		//element.id='testElement';
+		//element.appendChild(text);
+		/*:DOC element=<div>123456</div> */
+		//document.getElementsByTagName('div').appendChild(text);
+		//element.appendChild(text);
+		//document.body.appendChild(element);
 		var msg= 'this is a message';
 	
 		assertTrue(checkNumbersOnly(element,msg));
